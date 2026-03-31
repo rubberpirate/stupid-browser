@@ -75,14 +75,14 @@ class URL:
     def _request_http(self) -> tuple[dict[str, str], str, URL]:
         req = request.Request(
             str(self),
-            headers={Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             },
         )
 
         ctx = ssl._create_unverified_context()
-        with request.urlopen(req, timeout=20, context=ctx
-        with request.urlopen(req, timeout=20) as response:
+        with request.urlopen(req, timeout=20, context=ctx) as response:
             body = response.read()
             charset = response.headers.get_content_charset() or "utf-8"
             try:
