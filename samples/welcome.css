@@ -1,0 +1,22 @@
+body {
+  background-color: #fbfbf4;
+  color: #102a43;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  color: #8f2d56;
+}
+
+a {
+  color: #0b6e4f;
+}
+
+ul {
+  background-color: #edf2f7;
+}
+
+pre {
+  background-color: #102a43;
+  color: #f0f4f8;
+}

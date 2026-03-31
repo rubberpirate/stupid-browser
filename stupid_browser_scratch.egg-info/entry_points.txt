@@ -1,0 +1,2 @@
+[console_scripts]
+stupid-browser = stupid_browser_scratch.main:main

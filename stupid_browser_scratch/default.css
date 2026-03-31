@@ -1,0 +1,63 @@
+html, body {
+  display: block;
+  background-color: #ffffff;
+}
+
+head, title, meta, link, script, style {
+  display: none;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #1f2937;
+  line-height: 1.4;
+}
+
+a {
+  color: #0057b8;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}
+
+small {
+  font-size: 90%;
+}
+
+big {
+  font-size: 110%;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+p, div, section, article, nav, aside, header, footer, main, ul, ol, li, blockquote, pre {
+  display: block;
+}
+
+pre {
+  font-family: monospace;
+  background-color: #eff3f8;
+  color: #111827;
+}
