@@ -12,7 +12,7 @@ A clean-room browser project built from scratch in Python, inspired by browser.e
 - Renders styled text and backgrounds with a PySide6 custom paint view
 - Clickable links and keyboard/mouse scrolling
 - Tabbed chrome UI with back, forward, reload, home, address bar, and go controls
-- Built-in search-style home page (`about:home`) with direct URL/query input
+- Built-in search-style home page (`about:home`) with direct URL/query input.
 
 ## Run
 
